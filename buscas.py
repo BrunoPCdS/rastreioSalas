@@ -1,6 +1,12 @@
+# Importa a classe deque, que é uma fila de alta performance, usada para a busca em largura (BFS) e para criar a fila de prioridade na busca gulosa.
+
 from collections import deque
+
+# Importa a biblioteca heapq, que fornece uma implementação de fila de prioridade.
+# É usada na busca de Dijkstra para sempre destinar ao nó com o menor custo conhecido.
 import heapq
 
+# Importa a função carregar_grafo do módulo grafo, que lê o arquivo de conexões e constrói o grafo representado como um dicionário.
 from grafo import carregar_grafo
 
 
