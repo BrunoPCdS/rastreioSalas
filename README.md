@@ -12,7 +12,7 @@ rotas em um prédio representado por um grafo.
 
 - `grafo.py`: carrega o grafo a partir do arquivo `arestas.txt`.
 Este arquivo serve para montar o mapa do prédio em formato grafo.
-Ou seja, ele abre o arquivo de arestas, lê cada ligalão entre duas portas, guarda em memória, Adiciona a ligação nos dois sentidos, e conta o numero de conexões.
+Ou seja, ele abre o arquivo de arestas, lê cada ligação entre duas portas, guarda em memória, Adiciona a ligação nos dois sentidos, e conta o numero de conexões.
 
 exemplo: ENTRADA SECRETARIA 11
 {
